@@ -22,4 +22,4 @@ function toRoman(nombreArabe, nombreRomain = ""){
    return toRoman(nombreArabe - keys[i], `${nombreRomain} ${tab[keys[i]]}`);
 }
 
-console.log(toRoman(1000));
+console.log(toRoman(1380));
