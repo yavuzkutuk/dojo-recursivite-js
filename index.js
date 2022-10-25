@@ -13,7 +13,6 @@ function toRoman(nombreArabe, nombreRomain = ""){
             "900":"CM",
             "1000":"M"
         };
-
       
     let keys = Object.keys(tab)
     let i = Object.keys(tab).length - 1;
